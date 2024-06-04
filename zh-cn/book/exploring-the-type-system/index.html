@@ -303,6 +303,7 @@
 <!-- skip -->
 <div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre tabindex="0"><code><div class="ec-line"><span style="--0:#919F9F;--1:#5F636F">/// </span><span style="--1:#8844AE"><span style="--0:#7FDBCA">&#x3C;</span><span style="--0:#CAECE6">reference</span><span style="--0:#7FDBCA"> </span></span><span style="--0:#C5E478;--1:#3B61B0">path</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">./library-types.d.ts</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#7FDBCA;--1:#8844AE"> /></span></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="/// <reference path=&#x22;./library-types.d.ts&#x22; />"><div></div></button></div></figure></div>
 <p>即使在 JavaScript 文件中，您也可以通过 <code dir="auto">// @ts-check</code> 使用环境声明。</p>
+<p><code dir="auto">declare</code> 关键字可以为现有的 JavaScript 代码启用类型定义，而无需导入它，作为来自另一个文件或全局的类型的占位符。</p>
 <h3 id="属性检测和多余属性检测">属性检测和多余属性检测</h3>
 <p>TypeScript 基于结构类型系统，但过多的属性检查是 TypeScript 的一个属性，它允许它检查对象是否具有类型中指定的确切属性。</p>
 <p>例如，在将对象字面量赋值给变量或将它们作为参数传递给函数的多余属性时，会执行多余属性检查。</p>
